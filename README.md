@@ -11,6 +11,7 @@
 
 ## Descripción del juego
 *Descripcion del juego - Basado en Subway Surfers - Imágenes/GIFs del juego*
+- *Criterios de Gameplay: Movimiento y obstáculos, Generación procedural continua e infinita, Monedas y puntaje, 2 o más Power-Ups, Ranking (guardar puntajes), UI y menús
 
 ## Detalles del proyecto
 - **Versión de Unity:** 2020.3.33f1
