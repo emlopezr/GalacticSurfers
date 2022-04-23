@@ -10,13 +10,21 @@
 - Lukas Durán Zuluaga - [lduranz@unal.edu.co](mailto:lduranz@unal.edu.co)
 
 ## Descripción del juego
-*Descripcion del juego - Basado en Subway Surfers - Imágenes/GIFs del juego*
-- *Criterios de Gameplay: Movimiento y obstáculos, Generación procedural continua e infinita, Monedas y puntaje, 2 o más Power-Ups, Ranking (guardar puntajes), UI y menús*
+- **Descripcion del juego**
+  - Basado en Subway Surfers
+  - Imágenes/GIFs del juego
+- **Criterios de Gameplay:**
+  - Movimiento y obstáculos
+  - Generación procedural continua e infinita
+  - Monedas y puntaje
+  - Dos o más Power-Ups
+  - Ranking (Guardar puntajes)
+  - Interfaz de usuario (UI) y menús
 
 ## Detalles del proyecto
 - **Versión de Unity:** 2020.3.33f1
 - **Assets utilizados:**
   - [Kenney Space Kit](https://www.kenney.nl/assets/space-kit)
-  - *Posiblemente uno para monedas y Power-Ups (x2, Imán, Escudo, etc)*
-- **Paquetes extras:**
-  - *Posiblemente Cinemachine, pero aún no*
+  - *Posiblemente necesitemos alguno más para las monedas y los Power-Ups (x2, Imán, Escudo, etc)*
+- **Paquetes extras utilizados:**
+  - *Posiblemente se vaya a usar Cinemachine*
