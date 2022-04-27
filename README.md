@@ -10,6 +10,7 @@
 - Lukas Durán Zuluaga - [lduranz@unal.edu.co](mailto:lduranz@unal.edu.co)
 
 ## Descripción del juego
+![Image Text](https://github.com/lopezemmanuel/ICV2022-1_ProyectoFinal/blob/main/Informacion/ImagenProvisional.png)
 - **Descripcion del juego**
   - Basado en Subway Surfers
   - Imágenes/GIFs del juego
