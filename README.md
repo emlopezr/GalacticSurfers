@@ -26,6 +26,6 @@
 - **Versión de Unity:** 2020.3.33f1
 - **Assets utilizados:**
   - [Kenney Space Kit](https://www.kenney.nl/assets/space-kit)
-  - *Posiblemente necesitemos alguno más para las monedas y los Power-Ups (x2, Imán, Escudo, etc)*
+  - [Ten Power-Ups](https://assetstore.unity.com/packages/3d/props/ten-power-ups-217666)
 - **Paquetes extras utilizados:**
   - *Posiblemente se vaya a usar Cinemachine*
