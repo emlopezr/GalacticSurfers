@@ -27,5 +27,6 @@
 - **Assets utilizados:**
   - [Kenney Space Kit](https://www.kenney.nl/assets/space-kit)
   - [Ten Power-Ups](https://assetstore.unity.com/packages/3d/props/ten-power-ups-217666)
+  - [SpaceSkies Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503)
 - **Paquetes extras utilizados:**
   - *Posiblemente se vaya a usar Cinemachine*
