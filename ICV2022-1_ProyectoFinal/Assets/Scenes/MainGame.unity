@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.19634691, g: 0.09731356, b: 0.119633995, a: 1}
+  m_IndirectSpecularColor: {r: 0.19625664, g: 0.09740565, b: 0.119502746, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -188,6 +188,7 @@ GameObject:
   - component: {fileID: 116710216}
   - component: {fileID: 116710215}
   - component: {fileID: 116710214}
+  - component: {fileID: 116710217}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -260,6 +261,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+--- !u!114 &116710217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116710213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9d7f6f2aae4fe4f933bf60604dcf3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &143773205
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a66ca9068ddd624e8c078e9138208ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a66ca9068ddd624e8c078e9138208ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -912,6 +925,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d49e0e30d25655a44a1050fc914e1e0d, type: 3}
+--- !u!1 &902323941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2a66ca9068ddd624e8c078e9138208ae, type: 3}
+  m_PrefabInstance: {fileID: 466527091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &902323944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902323941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9d7f6f2aae4fe4f933bf60604dcf3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963346431
 GameObject:
   m_ObjectHideFlags: 0
