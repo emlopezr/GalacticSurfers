@@ -31,4 +31,10 @@ public class Movimiento : MonoBehaviour
         xypos += xymovement;
         transform.position = xypos;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("Game Over");
+        PlayerManager.gameOver = true;
+    }
 }

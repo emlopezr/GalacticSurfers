@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.19625664, g: 0.09740565, b: 0.119502746, a: 1}
+  m_IndirectSpecularColor: {r: 0.19634691, g: 0.09731356, b: 0.119633995, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -200,7 +200,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &55980966
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1079,6 +1079,8 @@ GameObject:
   - component: {fileID: 1814327683}
   - component: {fileID: 1814327682}
   - component: {fileID: 1814327685}
+  - component: {fileID: 1814327686}
+  - component: {fileID: 1814327687}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1136,6 +1138,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zspeed: 30
   xyspeed: 10
+--- !u!114 &1814327686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814327681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a56a651b06b354f84c27a32274e165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1814327687
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814327681}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &2095487109
 GameObject:
   m_ObjectHideFlags: 0
