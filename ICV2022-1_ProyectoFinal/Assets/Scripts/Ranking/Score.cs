@@ -5,11 +5,13 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
+    public static string ScoreFinal;
     public Transform player;
     public Text score;
-    
     void Update()
     {
-        score.text= "Score: " + player.position.z.ToString("0");
+        ScoreFinal = (player.position.z).ToString("0");
+        score.text= "Score: " + ScoreFinal;
     }
 }
+

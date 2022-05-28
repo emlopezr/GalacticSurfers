@@ -35,6 +35,7 @@ public class Movimiento : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Game Over");
+        Debug.Log(Score.ScoreFinal);
         PlayerManager.gameOver = true;
     }
 }
