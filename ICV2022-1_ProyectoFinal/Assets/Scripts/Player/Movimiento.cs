@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Movimiento : MonoBehaviour
-{   
+{
+    public Transform player;
     [SerializeField] private float zspeed = 10;
     [SerializeField] private float xyspeed = 10;
 
@@ -35,7 +36,6 @@ public class Movimiento : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Game Over");
-        Debug.Log(Score.ScoreFinal);
         PlayerManager.gameOver = true;
     }
 }
