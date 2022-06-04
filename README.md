@@ -23,7 +23,7 @@
   - Interfaz de usuario (UI) y menús
 
 ## Detalles del proyecto
-- **Versión de Unity:** 2020.3.33f1
+- **Versión de Unity:** 2020.3.31f1
 - **Assets utilizados:**
   - [Kenney Space Kit](https://www.kenney.nl/assets/space-kit)
   - [Ten Power-Ups](https://assetstore.unity.com/packages/3d/props/ten-power-ups-217666)
