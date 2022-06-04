@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Movimiento : MonoBehaviour
 {
     public Transform player;
-    [SerializeField] private float zspeed = 10;
+    [SerializeField] public static float zspeed = 30;
     [SerializeField] private float xyspeed = 10;
 
     // Update is called once per frame
