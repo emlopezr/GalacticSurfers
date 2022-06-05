@@ -13,14 +13,14 @@
 ![Image Text](https://github.com/lopezemmanuel/ICV2022-1_ProyectoFinal/blob/main/Informacion/ImagenProvisional.png)
 - **Descripcion del juego**
   - Basado en Subway Surfers
-  - Imágenes/GIFs del juego
+  - *Imágenes/GIFs del juego¨*
 - **Criterios de Gameplay:**
-  - Movimiento y obstáculos
-  - Generación procedural continua e infinita
-  - Monedas y puntaje
-  - Dos o más Power-Ups
-  - Ranking (Guardar puntajes)
-  - Interfaz de usuario (UI) y menús
+  - Movimiento y obstáculos ❌✅
+  - Generación procedural continua e infinita ✅
+  - Monedas y puntaje ❌✅
+  - Dos o más Power-Ups ❌
+  - Ranking (Guardar puntajes) ✅
+  - Interfaz de usuario (UI) y menús ❌❌
 
 ## Detalles del proyecto
 - **Versión de Unity:** 2020.3.31f1
@@ -28,7 +28,8 @@
   - [Kenney Space Kit](https://www.kenney.nl/assets/space-kit)
   - [Kenney UI Pack](https://www.kenney.nl/assets/ui-pack)
   - [Kenney UI Pack: Space Expansion](https://www.kenney.nl/assets/ui-pack-space-expansion)
-  - [Ten Power-Ups](https://assetstore.unity.com/packages/3d/props/ten-power-ups-217666)
-  - [SpaceSkies Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503)
+  - [Kenney Game Icons](https://www.kenney.nl/assets/game-icons)
+  - [TeKniKo Ten Power-Ups](https://assetstore.unity.com/packages/3d/props/ten-power-ups-217666)
+  - [PULSAR BYTES: SpaceSkies Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503)
 - **Paquetes extras utilizados:**
   - *Posiblemente se vaya a usar Cinemachine*
