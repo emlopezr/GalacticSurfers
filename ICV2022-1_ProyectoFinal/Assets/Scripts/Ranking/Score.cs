@@ -11,11 +11,11 @@ public class Score : MonoBehaviour
     public Text Hscore;
     void Start()
     {
-        Hscore.text = PlayerPrefs.GetInt("puntajeHSnum", 0).ToString();
+        Hscore.text = "Max: " + PlayerPrefs.GetInt("puntajeHSnum", 0).ToString();
     }
     void Update()
     {
-        if (!PlayerManager.gameOver)
+        if (PlayerManager.gameStarted && !PlayerManager.gameOver)
         {
             Scoremoment += Movimiento.zspeed * Time.deltaTime;
             score.text = "Score: " + Scoremoment.ToString("0");
@@ -26,14 +26,8 @@ public class Score : MonoBehaviour
             if (ScoreFinal > PlayerPrefs.GetInt("puntajeHSnum", 0))
             {
                 PlayerPrefs.SetInt("puntajeHSnum", ScoreFinal);
-                Hscore.text = ScoreFinal.ToString("0");
+                Hscore.text = "Max: " + ScoreFinal.ToString("0");
             }
         }
-    }
-    
-    public void reset()
-    {
-        PlayerPrefs.DeleteKey("puntajeHSnum");
-        Hscore.text = "0";
     }
 }
