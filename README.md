@@ -13,7 +13,7 @@
 ![Image Text](https://github.com/lopezemmanuel/ICV2022-1_ProyectoFinal/blob/main/Informacion/ImagenProvisional.png)
 - **Descripcion del juego**
   - Basado en Subway Surfers
-  - *Imágenes/GIFs del juego¨*
+  - *Imágenes/GIFs del juego*
 - **Criterios de Gameplay:**
   - Movimiento y obstáculos ❌✅
   - Generación procedural continua e infinita ✅
