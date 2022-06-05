@@ -28,7 +28,6 @@
   - [Kenney Space Kit](https://www.kenney.nl/assets/space-kit)
   - [Kenney UI Pack](https://www.kenney.nl/assets/ui-pack)
   - [Kenney UI Pack: Space Expansion](https://www.kenney.nl/assets/ui-pack-space-expansion)
-  - [Kenney Fonts](https://www.kenney.nl/assets/kenney-fonts)
   - [Ten Power-Ups](https://assetstore.unity.com/packages/3d/props/ten-power-ups-217666)
   - [SpaceSkies Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503)
 - **Paquetes extras utilizados:**
