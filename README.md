@@ -30,6 +30,6 @@
   - [Kenney UI Pack: Space Expansion](https://www.kenney.nl/assets/ui-pack-space-expansion)
   - [Kenney Game Icons](https://www.kenney.nl/assets/game-icons)
   - [TeKniKo Ten Power-Ups](https://assetstore.unity.com/packages/3d/props/ten-power-ups-217666)
-  - [PULSAR BYTES: SpaceSkies Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503)
+  - [PULSAR BYTES SpaceSkies Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503)
 - **Paquetes extras utilizados:**
   - *Posiblemente se vaya a usar Cinemachine*
