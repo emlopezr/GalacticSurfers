@@ -14,13 +14,11 @@ public class PlayerManager : MonoBehaviour
     {
         gameStarted = false;
         gameOver = false;
-        Time.timeScale = 1;
     }
 
     void Update()
     {
         if (gameOver) {
-            Time.timeScale = 0;
             gameOverPanel.SetActive(true);
         }
 
@@ -28,6 +26,8 @@ public class PlayerManager : MonoBehaviour
         {
             gameStarted = true;
             startGamePanel.SetActive(false);
+            Movimiento.zspeed = 30;
+            Movimiento.xyspeed = 10;
         }
     }
 }
