@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     public static int ScoreFinal;
-    private float Scoremoment;
+    public float Scoremoment;
     public Transform player;
     public Text score;
     public Text Hscore;
