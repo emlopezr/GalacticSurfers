@@ -5,8 +5,8 @@ using UnityEngine.UI;
 public class Movimiento : MonoBehaviour
 {
     public Transform player;
-    public static float zspeed = 30;
-    public static float xyspeed = 10;
+    public static float zspeed = 5;
+    public static float xyspeed = 5;
     private float ScoreInstant = 0;
     private float ScoreReference = 1000;
     private float ScoreReferenceIncrement = 1000;
@@ -36,6 +36,7 @@ public class Movimiento : MonoBehaviour
         Vector3 pos = transform.position;
         Vector3 movement = zspeed * _zdir * Time.deltaTime;
 
+        print(movement);
         pos += movement;
         transform.position = pos;
         
@@ -104,6 +105,8 @@ public class Movimiento : MonoBehaviour
 
         pos += movement;
         transform.position = pos;
+
+
         /* //Desplazamiento en el eje x,y sin tomar casillas
         float horizontal= Input.GetAxisRaw("Horizontal");
         float vertical= Input.GetAxisRaw("Vertical");
