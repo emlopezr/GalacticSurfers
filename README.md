@@ -13,12 +13,12 @@
   - Descripción del juego ❌
   - Imágenes (O GIFs) del juego ❌
 - **Criterios de Gameplay (Borrar al final):**
-  - Movimiento y obstáculos ❌✅
+  - Movimiento y obstáculos ✅
   - Generación procedural continua e infinita ✅
   - Monedas y puntaje ❌✅
   - Dos o más Power-Ups ❌
   - Ranking (Guardar puntajes y monedas) ✅❌
-  - Interfaz de usuario (UI) y menús ❌❌
+  - Interfaz de usuario (UI) y menús ❌✅
 ## Detalles del proyecto
 - **Versión de Unity:** 2020.3.31f1
 - **Assets utilizados:**
