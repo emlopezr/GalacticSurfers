@@ -4,10 +4,15 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Events : MonoBehaviour
-{
-    public void RestartGame()
+{    
+    public void PlayGame()
     {
         SceneManager.LoadScene("MainGame");
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void QuitGame()

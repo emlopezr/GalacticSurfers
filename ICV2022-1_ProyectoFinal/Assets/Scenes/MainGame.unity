@@ -5289,7 +5289,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xA1Jugar de nuevo!"
+  m_Text: Jugar de nuevo
 --- !u!222 &546457341
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10172,7 +10172,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Salir
+  m_Text: "Salir al men\xFA"
 --- !u!222 &803125507
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10500,7 +10500,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1680437066}
         m_TargetAssemblyTypeName: Events, Assembly-CSharp
-        m_MethodName: RestartGame
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10726,7 +10726,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1680437066}
         m_TargetAssemblyTypeName: Events, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: BackToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -31,8 +31,6 @@ public class Movimiento : MonoBehaviour
             ScoreReference += ScoreReferenceIncrement;
         }
 
-        print(zspeed);
-
         //Desplazamiento en el eje Z
         Vector3 _zdir = new Vector3(0,0,1);
         Vector3 pos = transform.position;
