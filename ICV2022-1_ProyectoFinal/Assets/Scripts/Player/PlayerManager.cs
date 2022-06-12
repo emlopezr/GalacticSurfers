@@ -22,12 +22,12 @@ public class PlayerManager : MonoBehaviour
             gameOverPanel.SetActive(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && !gameOver)
         {
             gameStarted = true;
             startGamePanel.SetActive(false);
-            Movimiento.zspeed = 30;
-            Movimiento.xyspeed = 10;
+            Movimiento.zspeed = PlayerConfig.playerZSpeed;
+            Movimiento.xyspeed = PlayerConfig.playerXYSpeed;
         }
     }
 }

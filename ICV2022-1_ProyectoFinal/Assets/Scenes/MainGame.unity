@@ -11307,6 +11307,7 @@ GameObject:
   - component: {fileID: 1814327685}
   - component: {fileID: 1814327686}
   - component: {fileID: 1814327688}
+  - component: {fileID: 1814327689}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -11408,6 +11409,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 6987254120071227909, guid: 5cb06336519b1f643a5dc8b111d9cbab, type: 3}
   playerModel: {fileID: 352512131}
+--- !u!114 &1814327689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814327681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 629930132a029a74c916abde854666b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zSpeed: 10
+  xySpeed: 5
 --- !u!1 &1858139171
 GameObject:
   m_ObjectHideFlags: 0

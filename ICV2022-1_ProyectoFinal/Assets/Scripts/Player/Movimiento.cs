@@ -5,18 +5,19 @@ using UnityEngine.UI;
 public class Movimiento : MonoBehaviour
 {
     public Transform player;
-    public static float zspeed = 5;
-    public static float xyspeed = 5;
+    public static float zspeed = PlayerConfig.playerZSpeed;
+    public static float xyspeed = PlayerConfig.playerXYSpeed;
     private float ScoreInstant = 0;
-    private float ScoreReference = 1000;
-    private float ScoreReferenceIncrement = 1000;
+    private float ScoreReference = 100;
+    private float ScoreReferenceIncrement = 100;
     private float increment = 0.1f;
     private int Xkey = 0; //0: Central, -1: Carril Izquierdo , 1: Carril Derecho
     private int Ykey = 0; //0: Central, -1: Abajo , 1: Arriba
     // Update is called once per frame
     void Update()
     {
-        if (!PlayerManager.gameStarted)
+
+        if (!PlayerManager.gameStarted || PlayerManager.gameOver)
         {
             return;
         }
@@ -29,14 +30,14 @@ public class Movimiento : MonoBehaviour
             zspeed += increment*zspeed; 
             ScoreReference += ScoreReferenceIncrement;
         }
-        
+
+        print(zspeed);
 
         //Desplazamiento en el eje Z
         Vector3 _zdir = new Vector3(0,0,1);
         Vector3 pos = transform.position;
         Vector3 movement = zspeed * _zdir * Time.deltaTime;
 
-        print(movement);
         pos += movement;
         transform.position = pos;
         
