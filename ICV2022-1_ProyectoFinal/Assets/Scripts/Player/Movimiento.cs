@@ -122,6 +122,9 @@ public class Movimiento : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        PlayerManager.gameOver = true;
+        if(!collision.gameObject.CompareTag("Coin"))
+        {
+            PlayerManager.gameOver = true;
+        }
     }
 }
