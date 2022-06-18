@@ -1,0 +1,99 @@
+newmtl beva_studio
+Kd 0.913725 0.00392157 0.00392157
+Ke 0.065 0.065 0.065
+Ka 1 1 1
+Ks 1 1 1
+Ns 1000
+Tr 0.1
+d 0.9
+Ni 1
+Tf 1 1 1
+
+newmtl Default
+Kd 0.784314 0.784314 0.784314
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl dsddd
+Kd 0.67451 0.67451 0.67451
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 1000
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl mag
+Kd 1 0 0
+Ke 0.015 0.015 0.015
+Ka 1 1 1
+Ks 1 1 1
+Ns 1000
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl north
+Kd 0 0 1
+Ke 0.07 0.07 0.07
+Ka 1 1 1
+Ks 0.995 0.995 0.995
+Ns 1000
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl ns
+Kd 0.752941 0.752941 0.752941
+Ke 0.015 0.015 0.015
+Ka 1 1 1
+Ks 1 1 1
+Ns 1000
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl nsaa
+Kd 1 1 1
+Ke 0 0 0
+Ka 1 1 1
+Ks 0 0 0
+Ns 400
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl south
+Kd 1 0 0
+Ke 0.07 0.07 0.07
+Ka 1 1 1
+Ks 0.995 0.995 0.995
+Ns 1000
+Tr 0
+d 1
+Ni 1
+Tf 1 1 1
+
+newmtl beva_studio
+Kd 0.913725 0.00392157 0.00392157
+Ke 0.065 0.065 0.065
+Ka 1 1 1
+Ks 1 1 1
+Ns 1000
+Tr 0.1
+d 0.9
+Ni 1
+Tf 1 1 1
+
