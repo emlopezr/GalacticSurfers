@@ -40,11 +40,10 @@ public class Score : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Coin"))
         {
-
             coin += 1;
             cointext.text = "Coins: " + coin.ToString("0");
-            Destroy(collision.gameObject);
-
+            collision.gameObject.SetActive(false);
+            Destroy(collision.gameObject, PowerUps.publicMaxTimePowerUps);
         }    
     }
 }

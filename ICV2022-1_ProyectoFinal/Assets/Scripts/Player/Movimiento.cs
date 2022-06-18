@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Movimiento : MonoBehaviour
 {
     public Transform player;
+    public Transform coinDetector;
     public static float zspeed = PlayerConfig.playerZSpeed;
     public static float xyspeed = PlayerConfig.playerXYSpeed;
     private float ScoreInstant = 0;
@@ -104,25 +105,12 @@ public class Movimiento : MonoBehaviour
 
         pos += movement;
         transform.position = pos;
-
-
-        /* //Desplazamiento en el eje x,y sin tomar casillas
-        float horizontal= Input.GetAxisRaw("Horizontal");
-        float vertical= Input.GetAxisRaw("Vertical");
-
-        Vector3 _xydir = new Vector3(horizontal,vertical,0);
-        _xydir.Normalize();
-
-        Vector3 xypos = transform.position;
-        Vector3 xymovement = xyspeed * _xydir * Time.deltaTime;
-
-        xypos += xymovement;
-        transform.position = xypos; */
+        coinDetector.transform.position = transform.position;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(!collision.gameObject.CompareTag("Coin"))
+        if(!collision.gameObject.CompareTag("Coin") && !collision.gameObject.CompareTag("Magnet"))
         {
             PlayerManager.gameOver = true;
         }

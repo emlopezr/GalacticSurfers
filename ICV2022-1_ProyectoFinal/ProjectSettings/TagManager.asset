@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coin
+  - Magnet
+  - Double
+  - Speed
   layers:
   - Default
   - TransparentFX
