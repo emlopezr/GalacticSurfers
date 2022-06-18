@@ -27,6 +27,7 @@
   - [Kenney UI Pack: Space Expansion](https://www.kenney.nl/assets/ui-pack-space-expansion)
   - [Kenney Game Icons](https://www.kenney.nl/assets/game-icons)
   - [TeKniKo Ten Power-Ups](https://assetstore.unity.com/packages/3d/props/ten-power-ups-217666)
+  - [Ali-mohsin14 Magnet 3D Model](https://free3d.com/3d-model/magnet-64871.html)
   - [PULSAR BYTES SpaceSkies Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503)
 - **Paquetes extras utilizados:**
   - [Unity Cinemachine](https://unity.com/es/unity/features/editor/art-and-design/cinemachine)
