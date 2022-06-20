@@ -6,46 +6,47 @@ public class PowerUps : MonoBehaviour
 {
     public GameObject coinDetector;
     public float maxTime;
-    private bool isActive;
-    private float timeAux;
 
+    private float timeAuxMagnet;
+    private bool isActiveMagnet = false;
+
+    public static bool isActive;
     public static float publicMaxTimePowerUps;
 
     private void Start()
     {
-        coinDetector.SetActive(false);
         isActive = false;
-        timeAux = maxTime;
+        coinDetector.SetActive(false);
+        timeAuxMagnet = maxTime;
         publicMaxTimePowerUps = maxTime;
     }
 
     private void Update()
     {
-        if(isActive && timeAux >= 0)
+        if(isActiveMagnet && timeAuxMagnet >= 0)
         {
             coinDetector.SetActive(true);
-            timeAux -= Time.deltaTime;
+            timeAuxMagnet -= Time.deltaTime;
         }
         else
         {
             coinDetector.SetActive(false);
             isActive = false;
-            timeAux = maxTime;
-        }
-
-        // Borrar lista de monedas del iman
-        if (!coinDetector.activeSelf)
-        {
-            Magnet.coinsList.Clear();
+            timeAuxMagnet = maxTime;
         }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Magnet"))
+        if (collision.gameObject.CompareTag("Magnet") || collision.gameObject.CompareTag("Double") || collision.gameObject.CompareTag("Speed"))
         {
             isActive = true;
             Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Magnet"))
+        {
+            isActiveMagnet = true;
         }
     }
 }

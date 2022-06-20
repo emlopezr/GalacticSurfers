@@ -43,7 +43,7 @@ public class Score : MonoBehaviour
             coin += 1;
             cointext.text = "Coins: " + coin.ToString("0");
             collision.gameObject.SetActive(false);
-            Destroy(collision.gameObject, PowerUps.publicMaxTimePowerUps);
+            // Destroy(collision.gameObject, PowerUps.publicMaxTimePowerUps); // ME CAUSA MUCHOS ERRORES
         }    
     }
 }

@@ -110,7 +110,7 @@ public class Movimiento : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(!collision.gameObject.CompareTag("Coin") && !collision.gameObject.CompareTag("Magnet"))
+        if(!collision.gameObject.CompareTag("Coin") && !collision.gameObject.CompareTag("Magnet") && !collision.gameObject.CompareTag("Double") && !collision.gameObject.CompareTag("Speed"))
         {
             PlayerManager.gameOver = true;
         }
