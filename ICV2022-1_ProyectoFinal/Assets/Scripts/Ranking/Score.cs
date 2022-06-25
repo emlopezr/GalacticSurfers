@@ -21,9 +21,16 @@ public class Score : MonoBehaviour
     {
         if (PlayerManager.gameStarted && !PlayerManager.gameOver)
         {
-            Scoremoment += Movimiento.zspeed * Time.deltaTime;
-            score.text = "Score: " + Scoremoment.ToString("0");
-
+            if(!PowerUps.isActiveDouble)
+            {
+                Scoremoment += Movimiento.zspeed * Time.deltaTime;
+                score.text = "Score: " + Scoremoment.ToString("0");
+            }
+            else
+            {
+                Scoremoment += 10*(Movimiento.zspeed * Time.deltaTime);
+                score.text = "Score: " + Scoremoment.ToString("0");
+            }
         }
         else
         {
@@ -43,7 +50,6 @@ public class Score : MonoBehaviour
             coin += 1;
             cointext.text = "Coins: " + coin.ToString("0");
             collision.gameObject.SetActive(false);
-            // Destroy(collision.gameObject, PowerUps.publicMaxTimePowerUps); // ME CAUSA MUCHOS ERRORES
         }    
     }
 }

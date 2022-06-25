@@ -8,7 +8,9 @@ public class PowerUps : MonoBehaviour
     public float maxTime;
 
     private float timeAuxMagnet;
+    private float timeAuxDouble;
     private bool isActiveMagnet = false;
+    public static bool isActiveDouble = false;
 
     public static bool isActive;
     public static float publicMaxTimePowerUps;
@@ -19,6 +21,7 @@ public class PowerUps : MonoBehaviour
         coinDetector.SetActive(false);
         timeAuxMagnet = maxTime;
         publicMaxTimePowerUps = maxTime;
+        timeAuxDouble = maxTime;
     }
 
     private void Update()
@@ -32,7 +35,19 @@ public class PowerUps : MonoBehaviour
         {
             coinDetector.SetActive(false);
             isActive = false;
+            isActiveMagnet = false;
             timeAuxMagnet = maxTime;
+        }
+
+        if (isActiveDouble && timeAuxDouble >= 0)
+        {
+            timeAuxDouble -= Time.deltaTime;
+        }
+        else
+        {
+            isActive = false;
+            isActiveDouble= false;
+            timeAuxDouble = maxTime;
         }
     }
 
@@ -47,6 +62,10 @@ public class PowerUps : MonoBehaviour
         if (collision.gameObject.CompareTag("Magnet"))
         {
             isActiveMagnet = true;
+        }
+        if (collision.gameObject.CompareTag("Double"))
+        {
+            isActiveDouble = true;
         }
     }
 }
