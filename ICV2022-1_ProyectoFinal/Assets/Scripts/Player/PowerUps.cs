@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class PowerUps : MonoBehaviour
 {
+    public GameObject InvincibilityDetector;
     public GameObject coinDetector;
     public float maxTime;
+    
 
     private float timeAuxMagnet;
     private float timeAuxDouble;
+    private float timeAuxSpeed;
     private bool isActiveMagnet = false;
     public static bool isActiveDouble = false;
-
+    public static bool isActiveSpeed = false;
     public static bool isActive;
     public static float publicMaxTimePowerUps;
 
@@ -19,9 +22,12 @@ public class PowerUps : MonoBehaviour
     {
         isActive = false;
         coinDetector.SetActive(false);
+        InvincibilityDetector.SetActive(false);
+
         timeAuxMagnet = maxTime;
         publicMaxTimePowerUps = maxTime;
         timeAuxDouble = maxTime;
+        
     }
 
     private void Update()
@@ -49,6 +55,20 @@ public class PowerUps : MonoBehaviour
             isActiveDouble= false;
             timeAuxDouble = maxTime;
         }
+
+        if(isActiveSpeed && timeAuxSpeed >= 0)
+        {
+            
+            InvincibilityDetector.SetActive(true);
+            timeAuxSpeed -= Time.deltaTime;
+        }
+        else
+        {
+            InvincibilityDetector.SetActive(false);
+            isActive = false;
+            isActiveSpeed = false;
+            timeAuxSpeed = maxTime;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -67,5 +87,10 @@ public class PowerUps : MonoBehaviour
         {
             isActiveDouble = true;
         }
+        if (collision.gameObject.CompareTag("Speed"))
+        {
+            isActiveSpeed = true;
+        }
+
     }
 }

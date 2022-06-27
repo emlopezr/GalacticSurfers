@@ -106,6 +106,7 @@ public class Movimiento : MonoBehaviour
         pos += movement;
         transform.position = pos;
         coinDetector.transform.position = transform.position;
+        Debug.Log(zspeed);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -113,6 +114,7 @@ public class Movimiento : MonoBehaviour
         if(!collision.gameObject.CompareTag("Coin") && !collision.gameObject.CompareTag("Magnet") && !collision.gameObject.CompareTag("Double") && !collision.gameObject.CompareTag("Speed"))
         {
             PlayerManager.gameOver = true;
+    
         }
     }
 }

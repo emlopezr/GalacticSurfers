@@ -1,0 +1,1671 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.31f1 (6b54b7616050) revision 7034039'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 5708 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Lukas/Documents/ICV2022-1_ProyectoFinal/ICV2022-1_ProyectoFinal
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58621
+Successfully changed project path to: C:/Users/Lukas/Documents/ICV2022-1_ProyectoFinal/ICV2022-1_ProyectoFinal
+C:/Users/Lukas/Documents/ICV2022-1_ProyectoFinal/ICV2022-1_ProyectoFinal
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 130.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.31f1 (6b54b7616050)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lukas/Documents/ICV2022-1_ProyectoFinal/ICV2022-1_ProyectoFinal/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) R4 Graphics (ID=0x98e4)
+    Vendor:   
+    VRAM:     377 MB
+    Driver:   21.19.149.1
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008779 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 344.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.220 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2221ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1690ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (493ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (797ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (345ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013748 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015620D8E7C0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620666030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F4DE220 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F4DE220 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F4DE220 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F532020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F4DE220 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F551430 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DBF2F00 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DC301A0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DC44BB0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562055F010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620D8E7C0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620833020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.395 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3400ms)
+		BeginReloadAssembly (482ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2732ms)
+			LoadAssemblies (339ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1060ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (957ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (701ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.50 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1681 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.0 MB.
+System memory in use after: 150.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2124.
+Total: 8.524900 ms (FindLiveObjects: 0.370200 ms CreateObjectMapping: 0.202700 ms MarkObjects: 7.632400 ms  DeleteObjects: 0.313900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Objects/PowerUpGenerator.prefab
+  artifactKey: Guid(375dca9f0260c864e8c3b9558f07e438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Objects/PowerUpGenerator.prefab using Guid(375dca9f0260c864e8c3b9558f07e438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79beae9a138eafb8a2d0974d347ead6a') in 0.193264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Prefabs/Objects/DoublePoints.prefab
+  artifactKey: Guid(92bee3b6a93884945b93af75e2b68d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Objects/DoublePoints.prefab using Guid(92bee3b6a93884945b93af75e2b68d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d6192a43c0b57ca6ebaba09ad511c6') in 0.333248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 448.403969 seconds.
+  path: Assets/Resources/UIPack/PNG/Icons
+  artifactKey: Guid(ff96ea7a873de4246afa5eb64c9797dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPack/PNG/Icons using Guid(ff96ea7a873de4246afa5eb64c9797dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298807ddfb219a8e9fb37933999b0c1c') in 0.034210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.070814 seconds.
+  path: Assets/Resources/UIPack/PNG/Icons/Black
+  artifactKey: Guid(8133227df7ba9d1439076c4b2c73bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPack/PNG/Icons/Black using Guid(8133227df7ba9d1439076c4b2c73bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568bccde567eafebf6e4aa42756ef089') in 0.024754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.449814 seconds.
+  path: Assets/Resources/UIPack/PNG/Icons/Black/1x
+  artifactKey: Guid(9f2e96dff360f4e46a6866c49bf0fda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPack/PNG/Icons/Black/1x using Guid(9f2e96dff360f4e46a6866c49bf0fda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9bfe6d250ed7cdd7363f9494fbe3c6') in 0.124432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.745325 seconds.
+  path: Assets/Resources/PowerUpDouble.png
+  artifactKey: Guid(4f2bde4680a12af4b83d1044eb3dc2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PowerUpDouble.png using Guid(4f2bde4680a12af4b83d1044eb3dc2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2add7a8e894d9eb99f116353b99696') in 0.283131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000988 seconds.
+  path: Assets/Resources/PowerUpSpeed.png
+  artifactKey: Guid(87cf2d5893e7e1b44b9a2841225ee707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PowerUpSpeed.png using Guid(87cf2d5893e7e1b44b9a2841225ee707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbf0c1612ae08a9cb8eca326dc2873e') in 0.155138 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 30.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 23.533800 ms (FindLiveObjects: 0.730100 ms CreateObjectMapping: 0.217800 ms MarkObjects: 22.447500 ms  DeleteObjects: 0.135300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 433.174043 seconds.
+  path: Assets/Scripts/Player/Invincibility.cs
+  artifactKey: Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Invincibility.cs using Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e365e42a07a58487996c229673fa755') in 0.430018 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011052 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001561F97BE60 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620666030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DD22030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623320080 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F690230 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156233A7010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DD22030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156233A7010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DBF2F00 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015621781020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F97BE60 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156206B6010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156217CFE20 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620EA3020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 27.187 seconds
+Domain Reload Profiling:
+	ReloadAssembly (27189ms)
+		BeginReloadAssembly (11127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (6684ms)
+		EndReloadAssembly (15227ms)
+			LoadAssemblies (9261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (4288ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (524ms)
+			SetupLoadedEditorAssemblies (3011ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (345ms)
+				ProcessInitializeOnLoadAttributes (2375ms)
+				ProcessInitializeOnLoadMethodAttributes (216ms)
+				AfterProcessingInitializeOnLoad (41ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.5 MB.
+System memory in use after: 151.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2137.
+Total: 9.845900 ms (FindLiveObjects: 0.648600 ms CreateObjectMapping: 0.211700 ms MarkObjects: 8.922400 ms  DeleteObjects: 0.059800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 188.614415 seconds.
+  path: Assets/Scripts/Player/Magnet.cs
+  artifactKey: Guid(59ef80a4236fee34ba2d61b210bcac97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Magnet.cs using Guid(59ef80a4236fee34ba2d61b210bcac97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057df8cefcfb32e74016b6d05ed47ee0') in 0.268224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.209273 seconds.
+  path: Assets/Resources/PowerUpMagnet.png
+  artifactKey: Guid(3c6e51155330bff4aacd8fc205b50307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PowerUpMagnet.png using Guid(3c6e51155330bff4aacd8fc205b50307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bfefe17d74e13e09016ca9c5fbe2de') in 0.388463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.227109 seconds.
+  path: Assets/Resources/Magnet
+  artifactKey: Guid(fa5f1abacd5b59e448eae84d95b369a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Magnet using Guid(fa5f1abacd5b59e448eae84d95b369a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc7b27f3dd243306ef30217b79c18d9') in 0.050847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.549331 seconds.
+  path: Assets/Resources/Magnet/magnet.fbx
+  artifactKey: Guid(0bdb7699fbeca224aad103cf65a05c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Magnet/magnet.fbx using Guid(0bdb7699fbeca224aad103cf65a05c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4fa22f894bdcf69452987847ae0679') in 1.099714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.016722 seconds.
+  path: Assets/Resources/Magnet/magnet.lwo
+  artifactKey: Guid(a11bdf0c74e812e4eb2491ff4708dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Magnet/magnet.lwo using Guid(a11bdf0c74e812e4eb2491ff4708dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0baed861c7d085891c2cdf09a4860a') in 0.020627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.341220 seconds.
+  path: Assets/Resources/Magnet/magnet.obj
+  artifactKey: Guid(8ec4b84b39a2d9649bb4d3add8b3602c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Magnet/magnet.obj using Guid(8ec4b84b39a2d9649bb4d3add8b3602c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73019e7cd48ff8804945649e73024f73') in 0.653353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.077436 seconds.
+  path: Assets/Resources/Magnet/magnet.mtl
+  artifactKey: Guid(82b9cd1877d7b4443b73c7690844cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Magnet/magnet.mtl using Guid(82b9cd1877d7b4443b73c7690844cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5605e87614d7174f1b248d2e9194e4b') in 0.031459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.497884 seconds.
+  path: Assets/Resources/PowerUps/Power_Ups/FBX
+  artifactKey: Guid(1a439674a4fe8654ba701abb53161d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PowerUps/Power_Ups/FBX using Guid(1a439674a4fe8654ba701abb53161d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892b20b24fc07fe138839aa9aef172f3') in 0.064065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.070868 seconds.
+  path: Assets/Resources/PowerUps/Power_Ups/Materials
+  artifactKey: Guid(23b4956db014af349a048044ad923e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PowerUps/Power_Ups/Materials using Guid(23b4956db014af349a048044ad923e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52c4efe8c66dc9af4ea831193990fcc') in 0.025920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.826486 seconds.
+  path: Assets/Resources/PowerUps/Power_Ups/Scripts/ObjectBounce.cs
+  artifactKey: Guid(04c2aa4f86ca6384e9a9c6d234cdef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PowerUps/Power_Ups/Scripts/ObjectBounce.cs using Guid(04c2aa4f86ca6384e9a9c6d234cdef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4a9e0ae2bc9d7df880aea9744635b6') in 0.077482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.698450 seconds.
+  path: Assets/Scripts/Player/PlayerAnimations.cs
+  artifactKey: Guid(5fb2eae2b0836e540872015accad724f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerAnimations.cs using Guid(5fb2eae2b0836e540872015accad724f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a2af8a2809b22d117ff95370149789') in 0.037016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.375338 seconds.
+  path: Assets/Scripts/Player/PowerUps.cs
+  artifactKey: Guid(2708dc4a88a3ea04cadac054426afe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PowerUps.cs using Guid(2708dc4a88a3ea04cadac054426afe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538a568398b4faa0d238276b91535bd0') in 0.062751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.091547 seconds.
+  path: Assets/Scripts/Player/PlayerManager.cs
+  artifactKey: Guid(46a56a651b06b354f84c27a32274e165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerManager.cs using Guid(46a56a651b06b354f84c27a32274e165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d701c69c0d0a31849b77768d3058ea') in 0.087306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.885441 seconds.
+  path: Assets/Scripts/Player/PlayerConfig.cs
+  artifactKey: Guid(629930132a029a74c916abde854666b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerConfig.cs using Guid(629930132a029a74c916abde854666b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e59d0465018a503d095b97c0e533a5') in 0.092648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.534396 seconds.
+  path: Assets/Scripts/Player/Movimiento.cs
+  artifactKey: Guid(1d9d7f6f2aae4fe4f933bf60604dcf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Movimiento.cs using Guid(1d9d7f6f2aae4fe4f933bf60604dcf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746d764fcd247107db2e2d0bfa935c45') in 0.102418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.978660 seconds.
+  path: Assets/Scripts/Player/MenuRotation.cs
+  artifactKey: Guid(e26d9999aa166384581876e385d32958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/MenuRotation.cs using Guid(e26d9999aa166384581876e385d32958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5dfc44e7b6a9a6b13269791479e89a') in 0.229054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.803387 seconds.
+  path: Assets/Prefabs/Tiles/MainMenu.prefab
+  artifactKey: Guid(5811a30c9f577894295943b8db23c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/MainMenu.prefab using Guid(5811a30c9f577894295943b8db23c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3662eed58b2e1cb04b73b63432be35a2') in 0.335981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.946170 seconds.
+  path: Assets/Prefabs/Tiles/Tile10_BuildingExit.prefab
+  artifactKey: Guid(f3005e0715972d844abeae7d58d5b7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tiles/Tile10_BuildingExit.prefab using Guid(f3005e0715972d844abeae7d58d5b7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef872e2e7f2f1e8bcf7d99702da9e88c') in 0.114013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.802379 seconds.
+  path: Assets/Prefabs/Objects/Coin.prefab
+  artifactKey: Guid(de8ca71945bcf4a40a8bf254721dac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Objects/Coin.prefab using Guid(de8ca71945bcf4a40a8bf254721dac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cea2641bc4b5a88c08a0cf854cc9bd2') in 0.176383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.870053 seconds.
+  path: Assets/Prefabs/Objects/SpeedUp.prefab
+  artifactKey: Guid(0ea896f99c49a5a4881d235b76cb79d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Objects/SpeedUp.prefab using Guid(0ea896f99c49a5a4881d235b76cb79d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b4c77bb40a0e5310b97169ac76b6b8') in 0.176008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.684110 seconds.
+  path: Assets/Prefabs/Objects/Magnet.prefab
+  artifactKey: Guid(61a3ca5edce9de740a213861d28adced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Objects/Magnet.prefab using Guid(61a3ca5edce9de740a213861d28adced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6e8a434ce353103f8ca431244a5b4c') in 0.132662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.131631 seconds.
+  path: Assets/Resources/UIPack
+  artifactKey: Guid(2cb7b0951605ea5428ae1a9f5f3e6cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPack using Guid(2cb7b0951605ea5428ae1a9f5f3e6cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468706550f0aeabe49e5dc3f6bfca321') in 0.035536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.078212 seconds.
+  path: Assets/Resources/PowerUps/Power_Ups/Prefabs
+  artifactKey: Guid(73ef058c628da524f98494dc325c7f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PowerUps/Power_Ups/Prefabs using Guid(73ef058c628da524f98494dc325c7f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19989527a9bf0a317f0e9dc644640e8') in 0.048176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.274492 seconds.
+  path: Assets/Scripts/Buttons/Events.cs
+  artifactKey: Guid(cd5427a4954e7cc49b8316ad97fade6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Buttons/Events.cs using Guid(cd5427a4954e7cc49b8316ad97fade6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c886b0d1916bc75467d15c8d464b1b05') in 0.022799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 270.551661 seconds.
+  path: Assets/Resources/SpaceSkies/Skybox_1
+  artifactKey: Guid(9a2b23d02abff604bb3b2c8b76ee104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SpaceSkies/Skybox_1 using Guid(9a2b23d02abff604bb3b2c8b76ee104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0511b734cb69ff80ab38590b04a00a1') in 0.045776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.929216 seconds.
+  path: Assets/Resources/SpaceKit/DAE format
+  artifactKey: Guid(710d03bb1e31bdf4c955eb16d26ec6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SpaceKit/DAE format using Guid(710d03bb1e31bdf4c955eb16d26ec6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7f5c0a79161b2851835de395091d36') in 0.025847 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.050576 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015623320080 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015624032440 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562366A7B0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156233DCC20 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015624074A70 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562050B010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015624074A70 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562399A030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015624074A70 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015621781020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156233DCC20 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623D1B0C0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561E074020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562068B030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3777ms)
+		BeginReloadAssembly (533ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (3053ms)
+			LoadAssemblies (493ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (894ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (159ms)
+			SetupLoadedEditorAssemblies (1345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (1056ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.9 MB.
+System memory in use after: 152.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2177.
+Total: 8.597800 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.111300 ms MarkObjects: 8.079100 ms  DeleteObjects: 0.049900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 950.593051 seconds.
+  path: Assets/Materials/FireParticles.mat
+  artifactKey: Guid(1bdb35b238bc98a49ad8c16aa0cf1fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FireParticles.mat using Guid(1bdb35b238bc98a49ad8c16aa0cf1fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e45bd777039a679d84a8890d0d9c197') in 3.487269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Materials/FireSparks.mat
+  artifactKey: Guid(db87240e6d5efd14e81792965df1029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FireSparks.mat using Guid(db87240e6d5efd14e81792965df1029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59e36b30c98ecc39abae9acd4cc61da') in 0.101244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.922595 seconds.
+  path: Assets/Resources/SpaceSkies/Skybox_1/Textures/1K_Resolution/Back_1K_TEX.png
+  artifactKey: Guid(52d452284176b2741bc26215319bbb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SpaceSkies/Skybox_1/Textures/1K_Resolution/Back_1K_TEX.png using Guid(52d452284176b2741bc26215319bbb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbaea1d571cf03645168e6d90b53beff') in 0.279171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Resources/SpaceSkies/Skybox_1/Textures/2K_Resolution/Back_2K_TEX.png
+  artifactKey: Guid(20e38473ff639ed429d08288b1db43c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SpaceSkies/Skybox_1/Textures/2K_Resolution/Back_2K_TEX.png using Guid(20e38473ff639ed429d08288b1db43c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e92e10774d1cc57cf291302036127f') in 0.266277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/Resources/SpaceSkies/Skybox_3/Textures/1K_Resolution/Back_1K_TEX.png
+  artifactKey: Guid(96c199bf2da6633479ea4536ce66bec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SpaceSkies/Skybox_3/Textures/1K_Resolution/Back_1K_TEX.png using Guid(96c199bf2da6633479ea4536ce66bec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774f0f21c337538c802c471a7077d8c2') in 0.159194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Resources/SpaceSkies/Skybox_2/Textures/2K_Resolution/Back_2K_TEX.png
+  artifactKey: Guid(33bb4058bb27cfe4e89d7c517f5ab86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SpaceSkies/Skybox_2/Textures/2K_Resolution/Back_2K_TEX.png using Guid(33bb4058bb27cfe4e89d7c517f5ab86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d4cb5880059f6bceeb8a238a63300a') in 0.197061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Resources/SpaceSkies/Skybox_2/Textures/1K_Resolution/Back_1K_TEX.png
+  artifactKey: Guid(7f70ef9b5ccc29d499ca59165e47fb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SpaceSkies/Skybox_2/Textures/1K_Resolution/Back_1K_TEX.png using Guid(7f70ef9b5ccc29d499ca59165e47fb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a807583003188300c418d9edf6adbf9') in 0.112332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.449283 seconds.
+  path: Assets/Scripts/World/PowerUpGenerator.cs
+  artifactKey: Guid(eb8928c78b6916a4a98e747ade612824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/World/PowerUpGenerator.cs using Guid(eb8928c78b6916a4a98e747ade612824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7920db84e493796811035aad5f073429') in 0.027232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.523826 seconds.
+  path: Assets/Scripts/World/TileManager.cs
+  artifactKey: Guid(cbbf3d91404708346bf2b2ec6ca707c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/World/TileManager.cs using Guid(cbbf3d91404708346bf2b2ec6ca707c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da24d15002891568ec14b505bfe5fec7') in 0.076129 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018540 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001561DD716F0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DFCCC50 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F3AB030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DD22030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562402B230 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561EBEBEF0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F3AB030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F605410 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F3AB030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561EC1B700 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DD22030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561E079E60 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DD716F0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562068B030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.699 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7701ms)
+		BeginReloadAssembly (4345ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (77ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (161ms)
+		EndReloadAssembly (3179ms)
+			LoadAssemblies (381ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1296ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (232ms)
+			SetupLoadedEditorAssemblies (838ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.0 MB.
+System memory in use after: 152.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2181.
+Total: 12.691500 ms (FindLiveObjects: 0.445500 ms CreateObjectMapping: 0.136400 ms MarkObjects: 12.052300 ms  DeleteObjects: 0.055000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 137.116251 seconds.
+  path: Assets/Prefabs/Effects
+  artifactKey: Guid(11cbf7a165e1c9a4abf12765240cee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects using Guid(11cbf7a165e1c9a4abf12765240cee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bdf34b3120e35a83b165c5ac068d60') in 0.107888 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.078633 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001562223F010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623D7B020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562074E030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC0010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561EBEBEF0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC0010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F24A010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC0010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015621781020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562074E030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156239DBF10 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562223F010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561ED44D20 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2751ms)
+		BeginReloadAssembly (352ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (2213ms)
+			LoadAssemblies (314ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (716ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (890ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (686ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.0 MB.
+System memory in use after: 152.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2184.
+Total: 7.305500 ms (FindLiveObjects: 0.368800 ms CreateObjectMapping: 0.129800 ms MarkObjects: 6.722700 ms  DeleteObjects: 0.081800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 856.275093 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f662bfd4d3fd100bb721350f293e8a') in 0.149187 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044549 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015623390200 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562076F020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562074E030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DEDCAB0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562050B010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC0010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623C41010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DEDCAB0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015622177030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F97BE60 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015621C7C020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623390200 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DBE6020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.134 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7136ms)
+		BeginReloadAssembly (752ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (5883ms)
+			LoadAssemblies (727ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1588ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (167ms)
+			SetupLoadedEditorAssemblies (3040ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (2427ms)
+				ProcessInitializeOnLoadMethodAttributes (368ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (62ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.0 MB.
+System memory in use after: 152.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2187.
+Total: 6.735400 ms (FindLiveObjects: 0.348200 ms CreateObjectMapping: 0.105100 ms MarkObjects: 6.225300 ms  DeleteObjects: 0.053600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1676.030326 seconds.
+  path: Assets/Scripts/Ranking/Score.cs
+  artifactKey: Guid(6ff7d551eadc5084e88573418c7a481d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ranking/Score.cs using Guid(6ff7d551eadc5084e88573418c7a481d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f12c6f7b4132e2fa5f183ae6b21f8ab') in 0.307494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.090374 seconds.
+  path: Assets/Scripts/Player/Invincibility.cs
+  artifactKey: Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Invincibility.cs using Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a378fc07072718d7acd24a7f241e1f58') in 0.044160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.244766 seconds.
+  path: Assets/Scripts/Player/Invincibility.cs
+  artifactKey: Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Invincibility.cs using Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb44ca8aa1b3989cb2e76a6e91223031') in 0.032088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.549391 seconds.
+  path: Assets/Scripts/Player/Invincibility.cs
+  artifactKey: Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Invincibility.cs using Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ae4845f0df5f73a160a88da0e6e6bc') in 0.034047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 158.246205 seconds.
+  path: Assets/Scripts/Player/Invincibility.cs
+  artifactKey: Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Invincibility.cs using Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac986def162f4595ac6b8c4ae16b5c40') in 0.060039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.734746 seconds.
+  path: Assets/Scripts/Player/Invincibility.cs
+  artifactKey: Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Invincibility.cs using Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b078ac1e8ca844a22a829596e094c5b') in 0.033481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.550154 seconds.
+  path: Assets/Scripts/Player/Invincibility.cs
+  artifactKey: Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Invincibility.cs using Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435c95d18faf4d55c2e86a96fb930c8d') in 0.056536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.629498 seconds.
+  path: Assets/Scripts/Player/Invincibility.cs
+  artifactKey: Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Invincibility.cs using Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcb51f458434dd198b75e35e4f1aa06') in 0.012392 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008594 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015623DC8020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561E0BF020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620D65020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DD22030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620D65020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561EBEBEF0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620D65020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F24A010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620D65020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156239C2050 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562406DE70 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156239DBF10 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC8020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562068B030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5254ms)
+		BeginReloadAssembly (1348ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (591ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (244ms)
+		EndReloadAssembly (3601ms)
+			LoadAssemblies (590ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1578ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (1168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (906ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.0 MB.
+System memory in use after: 152.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2190.
+Total: 19.405700 ms (FindLiveObjects: 0.509800 ms CreateObjectMapping: 0.629800 ms MarkObjects: 18.199600 ms  DeleteObjects: 0.063900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108.780149 seconds.
+  path: Assets/Scripts/Player/Invincibility.cs
+  artifactKey: Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Invincibility.cs using Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f6403e423cff63c3358206f0c47964') in 0.037013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 232.089617 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6d9a190d40bb7f71a5343af8ffd5bd') in 0.100346 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008481 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001562223F010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620D0E6F0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562366A7B0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562074E030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DEDCAB0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561EBEBEF0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC0010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DB942F0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DEDCAB0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DE3B430 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015621702E60 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156239DBF10 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562223F010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562068B030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.533 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4535ms)
+		BeginReloadAssembly (654ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (3696ms)
+			LoadAssemblies (786ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1099ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (173ms)
+			SetupLoadedEditorAssemblies (1326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (1111ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.0 MB.
+System memory in use after: 152.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2193.
+Total: 9.264100 ms (FindLiveObjects: 2.360500 ms CreateObjectMapping: 0.167300 ms MarkObjects: 6.680400 ms  DeleteObjects: 0.053200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017890 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015623390200 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561EBE2050 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562206F030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DD22030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DEDCAB0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562050B010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC0010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623C41010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC0010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DE3B430 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F97BE60 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623FFC020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623390200 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015621B30020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5086ms)
+		BeginReloadAssembly (608ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (160ms)
+		EndReloadAssembly (3882ms)
+			LoadAssemblies (557ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1917ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (1166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (943ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.0 MB.
+System memory in use after: 152.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2196.
+Total: 17.204100 ms (FindLiveObjects: 0.901000 ms CreateObjectMapping: 0.932500 ms MarkObjects: 15.305500 ms  DeleteObjects: 0.062200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.052747 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015623390200 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561EFBD0D0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562074E030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561EBEBEF0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F24A010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015622177030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015621523E50 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623FFC020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623390200 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562068B030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4820ms)
+		BeginReloadAssembly (569ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (4ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (3542ms)
+			LoadAssemblies (594ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1294ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (218ms)
+			SetupLoadedEditorAssemblies (1253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (974ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.1 MB.
+System memory in use after: 152.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2199.
+Total: 10.738500 ms (FindLiveObjects: 0.350300 ms CreateObjectMapping: 0.097300 ms MarkObjects: 10.237400 ms  DeleteObjects: 0.051100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2437.414008 seconds.
+  path: Assets/Scripts/Player/Invincibility.cs
+  artifactKey: Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Invincibility.cs using Guid(1b8cf6f9137768846a93f2aed9759b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9123730730e610b313d179acc7719e') in 0.033512 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.106101 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015623390200 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623C66620 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562074E030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015624077BD0 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DB48060 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F24A010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015622177030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562074E030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623FFC020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623390200 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562399A030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.794 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4798ms)
+		BeginReloadAssembly (916ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (237ms)
+		EndReloadAssembly (3657ms)
+			LoadAssemblies (1086ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1711ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (901ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (678ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.1 MB.
+System memory in use after: 152.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2202.
+Total: 9.048600 ms (FindLiveObjects: 0.485500 ms CreateObjectMapping: 0.157000 ms MarkObjects: 8.302700 ms  DeleteObjects: 0.100500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018147 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001561DD29F20 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561EBE2050 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562074E030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000156239DBF10 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562399A030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F24A010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562175F010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DEBF040 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562233FE60 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623FFC020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DD29F20 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015621B30020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3900ms)
+		BeginReloadAssembly (479ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (3157ms)
+			LoadAssemblies (482ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (978ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (1126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (227ms)
+				ProcessInitializeOnLoadAttributes (796ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.1 MB.
+System memory in use after: 152.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2205.
+Total: 9.974800 ms (FindLiveObjects: 0.380400 ms CreateObjectMapping: 0.131100 ms MarkObjects: 9.363200 ms  DeleteObjects: 0.097300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 708.548827 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(8b8db7250417c964a81489f4cf75e19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(8b8db7250417c964a81489f4cf75e19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c81105ea671fba50baf4cf594a04783') in 0.074342 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018149 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001561DD29F20 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623C66620 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562116C010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562074E030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC0010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562399A030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC0010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F24A010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623DC0010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015622177030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562233FE60 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623FFC020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DD29F20 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561F9A6010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.844 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10846ms)
+		BeginReloadAssembly (359ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (9495ms)
+			LoadAssemblies (401ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (4152ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (313ms)
+			SetupLoadedEditorAssemblies (3454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (463ms)
+				ProcessInitializeOnLoadAttributes (2801ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (68ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (57ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 82.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.1 MB.
+System memory in use after: 152.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2208.
+Total: 50.259000 ms (FindLiveObjects: 18.670700 ms CreateObjectMapping: 0.228000 ms MarkObjects: 31.244300 ms  DeleteObjects: 0.111600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.059968 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3767a2a464bfd905b5b694d85132b596') in 0.038415 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.049304 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001561DD29F20 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000155D2939D50 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015620D65020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001562074E030 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561E1B1D10 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DB48060 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561E1B1D10 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623C41010 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561E1B1D10 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DEBF040 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015621523E50 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015623FFC020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561E1B9D20 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001561DE8F020 doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Lukas\Documents\ICV2022-1_ProyectoFinal\ICV2022-1_ProyectoFinal\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.576 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5578ms)
+		BeginReloadAssembly (360ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (4960ms)
+			LoadAssemblies (390ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1422ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (224ms)
+			SetupLoadedEditorAssemblies (1431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (60ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (328ms)
+				ProcessInitializeOnLoadAttributes (949ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 16.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.1 MB.
+System memory in use after: 152.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2211.
+Total: 8.867300 ms (FindLiveObjects: 0.591800 ms CreateObjectMapping: 0.357300 ms MarkObjects: 7.781000 ms  DeleteObjects: 0.134300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 309.664556 seconds.
+  path: Assets/Scripts/Player/PowerUps.cs
+  artifactKey: Guid(2708dc4a88a3ea04cadac054426afe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PowerUps.cs using Guid(2708dc4a88a3ea04cadac054426afe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16438af07a7b541a506b9952c04113fb') in 0.022156 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

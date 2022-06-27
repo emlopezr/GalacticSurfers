@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.19634691, g: 0.09731356, b: 0.119633995, a: 1}
+  m_IndirectSpecularColor: {r: 0.19625664, g: 0.09740565, b: 0.119502746, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5108,6 +5108,11 @@ ParticleSystem:
 --- !u!1 &352512131 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2a66ca9068ddd624e8c078e9138208ae, type: 3}
+  m_PrefabInstance: {fileID: 466527091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &352512132 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 2a66ca9068ddd624e8c078e9138208ae, type: 3}
   m_PrefabInstance: {fileID: 466527091}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &466527091
@@ -10883,6 +10888,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115168995}
   m_CullTransparentMesh: 1
+--- !u!1 &1166712222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1166712224}
+  - component: {fileID: 1166712223}
+  m_Layer: 0
+  m_Name: InvincibilityDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1166712223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166712222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8cf6f9137768846a93f2aed9759b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InvincibilityTime: 5
+  InvincibilityLength: 0
+  PowerUpSpeed: 20
+  RegularSpeed: 10
+  player: {fileID: 1814327681}
+  PlayerRenderer: {fileID: 352512132}
+  TiempoRender: 0.2
+--- !u!4 &1166712224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166712222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1259933997
 GameObject:
   m_ObjectHideFlags: 0
@@ -11566,6 +11621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2708dc4a88a3ea04cadac054426afe3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InvincibilityDetector: {fileID: 1166712222}
   coinDetector: {fileID: 701382776}
   maxTime: 5
 --- !u!1 &1858139171
