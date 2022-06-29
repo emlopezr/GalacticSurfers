@@ -8,13 +8,9 @@ public class Magnet : MonoBehaviour
     public float magneticSpeed;
     public static List<GameObject> coinsList;
 
-    public float clearTime;
-    private float auxClearTime;
-
     private void Start()
     {
         coinsList = new List<GameObject>();
-        auxClearTime = clearTime;
     }
 
     private void Update()
@@ -24,17 +20,10 @@ public class Magnet : MonoBehaviour
 
         foreach (GameObject coin in coinsList)
         {     
-            coin.transform.position = Vector3.Lerp(coin.transform.position, player.transform.position, magneticSpeed);
-        }
-
-        if(auxClearTime >= 0)
-        {
-            auxClearTime -= Time.deltaTime;
-        }
-        else
-        {
-            coinsList.Clear();
-            auxClearTime = clearTime;
+            if (coin != null)
+            {
+                coin.transform.position = Vector3.Lerp(coin.transform.position, player.transform.position, magneticSpeed);
+            }
         }
     }
 

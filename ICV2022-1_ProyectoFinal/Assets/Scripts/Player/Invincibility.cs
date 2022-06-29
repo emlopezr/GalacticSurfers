@@ -30,7 +30,6 @@ public class Invincibility : MonoBehaviour
             RegularSpeed = Movimiento.zspeed;
             Contador += 1;
         }
-        Debug.Log(Movimiento.zspeed);
         if (InvincibilityTime > 0)
         {
             PlayerRenderer.enabled = false;

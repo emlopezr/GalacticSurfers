@@ -106,7 +106,6 @@ public class Movimiento : MonoBehaviour
         pos += movement;
         transform.position = pos;
         coinDetector.transform.position = transform.position;
-        Debug.Log(zspeed);
     }
 
     private void OnCollisionEnter(Collision collision)

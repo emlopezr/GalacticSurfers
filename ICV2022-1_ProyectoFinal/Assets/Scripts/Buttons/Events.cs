@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Events : MonoBehaviour
-{    
+{   
     public void PlayGame()
     {
         SceneManager.LoadScene("MainGame");

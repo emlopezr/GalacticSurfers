@@ -82,14 +82,18 @@ public class PowerUps : MonoBehaviour
         if (collision.gameObject.CompareTag("Magnet"))
         {
             isActiveMagnet = true;
+            timeAuxMagnet = maxTime;
+
         }
         if (collision.gameObject.CompareTag("Double"))
         {
             isActiveDouble = true;
+            timeAuxDouble = maxTime;
         }
         if (collision.gameObject.CompareTag("Speed"))
         {
             isActiveSpeed = true;
+            timeAuxSpeed = maxTime;
         }
 
     }
