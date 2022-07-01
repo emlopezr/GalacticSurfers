@@ -9,10 +9,10 @@ public class PowerUps : MonoBehaviour
     public float maxTime;
     
 
-    private float timeAuxMagnet;
-    private float timeAuxDouble;
-    private float timeAuxSpeed;
-    private bool isActiveMagnet = false;
+    public static float timeAuxMagnet;
+    public static float timeAuxDouble;
+    public static float timeAuxSpeed;
+    public static bool isActiveMagnet = false;
     public static bool isActiveDouble = false;
     public static bool isActiveSpeed = false;
     public static bool isActive;

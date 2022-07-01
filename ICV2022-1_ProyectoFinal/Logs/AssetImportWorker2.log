@@ -1,0 +1,21 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.31f1 (6b54b7616050) revision 7034039'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 5708 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Lukas/Documents/ICV2022-1_ProyectoFinal/ICV2022-1_ProyectoFinal
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61424
+Successfully changed project path to: C:/Users/Lukas/Documents/ICV2022-1_ProyectoFinal/ICV2022-1_ProyectoFinal
+C:/Users/Lukas/Documents/ICV2022-1_ProyectoFinal/ICV2022-1_ProyectoFinal
+Using Asset Import Pipeline V2.
