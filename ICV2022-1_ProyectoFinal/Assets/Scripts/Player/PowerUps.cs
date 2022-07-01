@@ -18,6 +18,13 @@ public class PowerUps : MonoBehaviour
     public static bool isActive;
     public static float publicMaxTimePowerUps;
 
+    private SoundManager soundManager;
+
+    private void Awake()
+    {
+        soundManager = FindObjectOfType<SoundManager>();
+    }
+
     private void Start()
     {
         isActive = false;
@@ -83,17 +90,20 @@ public class PowerUps : MonoBehaviour
         {
             isActiveMagnet = true;
             timeAuxMagnet = maxTime;
+            soundManager.playAudio(4, 0.1f);
 
         }
         if (collision.gameObject.CompareTag("Double"))
         {
             isActiveDouble = true;
             timeAuxDouble = maxTime;
+            soundManager.playAudio(3, 0.1f);
         }
         if (collision.gameObject.CompareTag("Speed"))
         {
             isActiveSpeed = true;
             timeAuxSpeed = maxTime;
+            soundManager.playAudio(2, 0.1f);
         }
 
     }

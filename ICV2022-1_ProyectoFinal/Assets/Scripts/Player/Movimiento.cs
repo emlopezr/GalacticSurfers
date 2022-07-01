@@ -14,7 +14,17 @@ public class Movimiento : MonoBehaviour
     private float increment = 0.1f;
     private int Xkey = 0; //0: Central, -1: Carril Izquierdo , 1: Carril Derecho
     private int Ykey = 0; //0: Central, -1: Abajo , 1: Arriba
-    // Update is called once per frame
+
+    private SoundManager soundManager;
+    private AudioSource engineSound;
+
+    private void Awake()
+    {
+        engineSound = GetComponent<AudioSource>();
+        soundManager = FindObjectOfType<SoundManager>();
+    }
+
+
     void Update()
     {
 
@@ -113,7 +123,8 @@ public class Movimiento : MonoBehaviour
         if(!collision.gameObject.CompareTag("Coin") && !collision.gameObject.CompareTag("Magnet") && !collision.gameObject.CompareTag("Double") && !collision.gameObject.CompareTag("Speed"))
         {
             PlayerManager.gameOver = true;
-    
+            soundManager.playAudio(0, 0.5f);
+            engineSound.volume = 0;
         }
     }
 }

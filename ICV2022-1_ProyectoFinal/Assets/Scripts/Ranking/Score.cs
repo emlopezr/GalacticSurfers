@@ -16,6 +16,13 @@ public class Score : MonoBehaviour
     public int coin;
     public static bool newRecord;
 
+    private SoundManager soundManager;
+
+    private void Awake()
+    {
+        soundManager = FindObjectOfType<SoundManager>();
+    }
+
     void Start()
     {
         Hscore.text = PlayerPrefs.GetInt("puntajeHSnum", 0).ToString();
@@ -57,6 +64,7 @@ public class Score : MonoBehaviour
             coin += 1;
             cointext.text = coin.ToString("0");
             collision.gameObject.SetActive(false);
+            soundManager.playAudio(1, 0.05f);
         }    
     }
 }

@@ -10,10 +10,10 @@ public class Invincibility : MonoBehaviour
     public float RegularSpeed;
     private int Contador = 0;
     public GameObject player;
-    public Renderer PlayerRenderer;
+    public GameObject playerShell;
     private float DuracionRender;
     public float TiempoRender = 0.1f;
-    // Start is called before the first frame update
+
     void Start()
     {
         PowerUpSpeed = 30;
@@ -22,7 +22,6 @@ public class Invincibility : MonoBehaviour
         InvincibilityTime = InvincibilityLength - 1f;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Contador == 0)
@@ -32,14 +31,14 @@ public class Invincibility : MonoBehaviour
         }
         if (InvincibilityTime > 0)
         {
-            PlayerRenderer.enabled = false;
+            playerShell.SetActive(true);
             player.layer = 7;
             InvincibilityTime -= Time.deltaTime;
             DuracionRender -= Time.deltaTime;
             if (DuracionRender <= 0)
             {
-               PlayerRenderer.enabled = true;
-               DuracionRender = TiempoRender; 
+                playerShell.SetActive(false);
+                DuracionRender = TiempoRender; 
             }
             Movimiento.zspeed = PowerUpSpeed;
             
@@ -49,7 +48,7 @@ public class Invincibility : MonoBehaviour
         else if (InvincibilityTime <= 0)
         {
             player.layer = 0;
-            PlayerRenderer.enabled = true;
+            playerShell.SetActive(false);
             DuracionRender = TiempoRender;
             Movimiento.zspeed = RegularSpeed;
             InvincibilityTime = InvincibilityLength - 1;
