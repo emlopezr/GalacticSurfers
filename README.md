@@ -1,4 +1,4 @@
-# Runnner Infinito
+# Proyecto final ICV: Galactic Surfers
 - **Materia:** Introducción a la Creación de Videojuegos
 - **Profesor:** Juan Alejandro Álvarez Mesa
 - **Institución:** Universidad Nacional de Colombia sede Medellín
@@ -8,17 +8,14 @@
 - Sebastián Díaz Martínez - [sebdiazma@unal.edu.co](mailto:sebdiazma@unal.edu.co)
 - Lukas Durán Zuluaga - [lduranz@unal.edu.co](mailto:lduranz@unal.edu.co)
 ## Descripción del juego
-![Imágen del juego](https://github.com/lopezemmanuel/ICV2022-1_ProyectoFinal/blob/main/Informacion/ImagenProvisional.png)
-- **Necesario en el README (Borrar al final):**
-  - Descripción del juego ❌
-  - Imágenes (O GIFs) del juego ❌
-- **Criterios de Gameplay (Borrar al final):**
-  - Movimiento y obstáculos ✅✅
-  - Generación procedural continua e infinita ✅
-  - Monedas y puntaje ✅✅
-  - Dos o más Power-Ups ✅❌❌
-  - Ranking (Guardar puntajes y monedas) ✅✅
-  - Interfaz de usuario (UI) y menús ❌❌
+Galactic Surfers es un juego de tipo Runner Infinito ubicado en el espacio exterior en el cual el jugador maneja una nave espacial la cual deberá de evitar los obstaculos que se interpongan en el camino. El objetivo del juego es conseguir la mejor puntuación recorriendo la mayor distancia posible, también el jugador puede recolectar monedas. A medida que la nave avanza, gana velocidad y es más difícil evitar los obstáculos. El jugador podrá contar con una variedad de ventajas que le ayudarán a lograr el objetivo de conseguir la mejor puntuación, estas ventajas son: Puntos dobles, inmunidad temporal y un imán que atrae las monedas.
+
+![Imagen gameplay 1](https://github.com/lopezemmanuel/ICV2022-1_ProyectoFinal/blob/main/Informacion/ImagenGameplay1.png)
+![Imagen gameplay 2](https://github.com/lopezemmanuel/ICV2022-1_ProyectoFinal/blob/main/Informacion/ImagenGameplay2.png)
+![Imagen gameplay 3](https://github.com/lopezemmanuel/ICV2022-1_ProyectoFinal/blob/main/Informacion/ImagenGameplay3.png)
+![GIF del gameplay](https://github.com/lopezemmanuel/ICV2022-1_ProyectoFinal/blob/main/Informacion/GIFGameplay.gif)
+![Icono del juego](https://github.com/lopezemmanuel/ICV2022-1_ProyectoFinal/blob/main/Informacion/IconoJuego.png)
+
 ## Detalles del proyecto
 - **Versión de Unity:** 2020.3.31f1
 - **Assets utilizados:**
@@ -31,3 +28,6 @@
   - [PULSAR BYTES SpaceSkies Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/spaceskies-free-80503)
 - **Paquetes extras utilizados:**
   - [Unity Cinemachine](https://unity.com/es/unity/features/editor/art-and-design/cinemachine)
+- **Otros recursos utilizados:**
+  - Efectos de sonido sacados de la página [Zapsplat](https://www.zapsplat.com)
+  - Música de fondo [Quincas Moreira - Grasshopper](https://www.youtube.com/watch?v=T6Tw5UEyBuU)
