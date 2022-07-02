@@ -24,6 +24,10 @@ public class PlayerManager : MonoBehaviour
             gameOverPanel.SetActive(true);
             panelCoins.SetActive(false);
             panelPoints.SetActive(false);
+            PowerUps.isActive = false;
+            PowerUps.isActiveDouble = false;
+            PowerUps.isActiveMagnet = false;
+            PowerUps.isActiveSpeed = false;
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && !gameOver)

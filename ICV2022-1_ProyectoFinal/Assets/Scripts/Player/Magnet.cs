@@ -15,7 +15,7 @@ public class Magnet : MonoBehaviour
 
     private void Update()
     {
-        magneticSpeed = Movimiento.zspeed/100;
+        magneticSpeed = Movimiento.zspeed/50;
 
 
         foreach (GameObject coin in coinsList)
